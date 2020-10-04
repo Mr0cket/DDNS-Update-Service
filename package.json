@@ -1,0 +1,20 @@
+{
+  "name": "ddns-updater",
+  "version": "0.1.0",
+  "description": "Create a windows service to update IP address for DDNS service.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo this works!",
+    "start": "npm main"
+  },
+  "keywords": [
+    "DDNS",
+    "auto-update"
+  ],
+  "author": "Milo S.",
+  "license": "ISC",
+  "dependencies": {
+    "os-service": "^2.2.0",
+    "yargs": "^16.0.3"
+  }
+}
